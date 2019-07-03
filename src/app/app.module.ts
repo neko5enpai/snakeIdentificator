@@ -4,23 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
-import { NavComponent } from './nav/nav.component';
+import { BottomnavComponent } from './bottomnav/bottomnav.component';
 import { ObservationsComponent } from './observations/observations.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { CommunauteComponent } from './communaute/communaute.component';
 import { ParametresComponent } from './parametres/parametres.component';
-import { BottomnavComponent } from './bottomnav/bottomnav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccueilComponent,
-    NavComponent,
+    BottomnavComponent,
     ObservationsComponent,
     DocumentationComponent,
     CommunauteComponent,
-    ParametresComponent,
-    BottomnavComponent
+    ParametresComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,26 @@
+.bottom-navbar {
+    background-color: #2a5223;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-navbar i {
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.bottom-navbar a {
+    display: block;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottom-navbar a:active {
+    background-color: white;
+    color: #2a5223;
+}
